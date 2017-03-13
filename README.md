@@ -5,9 +5,9 @@ http://izhevsk.hh.ru/resume/66168d02ff02c7e1ad0039ed1f546b61494b39
 В данном солюшене предоставлен сервис по конвертации бинарных файлов в записи базы данных либо в CSV файл.
 В дальнейшем предоставляется возможность достать по одной записи из БД и скачать CSV файл по соответствующей ссылке.
 
-Использована SQL Server Compact 4.0
-Entity Framework
-Web API self host
+Использована SQL Server Compact 4.0,
+Entity Framework,
+Web API self host,
 NLog для логирования.
 
 #Конвертация:
