@@ -28,8 +28,8 @@ namespace TradeService
                new { controller = "Convert", filename = RouteParameter.Optional });
 
             config.Routes.MapHttpRoute(
-               "TradeRecordHttpRoute", "api/record/{filename}/{id}",
-               new { controller = "TradeRecord" });
+               "TradeRecordHttpRoute", "api/record/{id}/{filename}",
+               new { controller = "TradeRecord", filename = RouteParameter.Optional });
 
             config.Routes.MapHttpRoute(
                "DownloadHttpRoute", "api/download/{url}",

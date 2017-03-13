@@ -16,7 +16,7 @@ namespace TradeService.Controllers
         private Entities db = new Entities();
 
         [ResponseType(typeof(TradeRecord))]
-        public async Task<IHttpActionResult> GetTradeRecord(string filename, int id)
+        public async Task<IHttpActionResult> GetTradeRecord(int id, string filename)
         {
             Log.Info("Request for {0}", Request.RequestUri);
 
