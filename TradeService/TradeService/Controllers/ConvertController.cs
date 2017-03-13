@@ -73,7 +73,7 @@ namespace TradeService
                 {
                     transaction.Rollback();
                     Log.Error("Exception message {0}. Stack Trace: {1}", ex.Message, ex.StackTrace);
-                    return InternalServerError();
+                    return BadRequest("Some of the records are already exist in database. It appears you are converting the same file.");
                 }
             }
             return Ok();
