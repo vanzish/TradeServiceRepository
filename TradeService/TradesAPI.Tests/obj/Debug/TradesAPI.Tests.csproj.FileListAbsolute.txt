@@ -1,0 +1,7 @@
+C:\Work\TradeService\TradesAPI.Tests\bin\Debug\TradesAPI.Tests.dll
+C:\Work\TradeService\TradesAPI.Tests\bin\Debug\TradesAPI.Tests.pdb
+C:\Work\TradeService\TradesAPI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Work\TradeService\TradesAPI.Tests\obj\Debug\TradesAPI.Tests.dll
+C:\Work\TradeService\TradesAPI.Tests\obj\Debug\TradesAPI.Tests.pdb
+C:\Work\TradeService\TradesAPI.Tests\bin\Debug\TradesAPI.Tests.dll.config
+C:\Work\TradeService\TradesAPI.Tests\obj\Debug\TradesAPI.Tests.csprojResolveAssemblyReference.cache
